@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qingmingshanghetu.MainActivity" >
+
+    <com.example.qingmingshanghetu.OnlyImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" >
+
+    </com.example.qingmingshanghetu.OnlyImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/autoLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/autoleft" />
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+        <Button
+            android:id="@+id/autoRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/autoright" />
+        <Button
+            android:id="@+id/listenup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listenup" />
+    </LinearLayout>
+</RelativeLayout>
